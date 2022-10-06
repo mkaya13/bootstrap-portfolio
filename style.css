@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-top: 1%;
+  margin-left: 8%;
+  margin-right: 8%;
+  background-color: white;
+  text-color: green;
+}
+
+button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-right: 1%;
+  padding-left: 1%;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.navbar-nav li a {
+  color: #6070ff;
+}
+
+.hero {
+  height: 80vh;
+  width: 100%;
+  background: white;
+  background-size: 100% 71vh;
+  background-image: url("img/background-beginning-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 0 75px;
+  border-bottom-left-radius: 90px;
+}
+
+.navbar-brand {
+  color: #6070ff;
+}
+
+.hero-1 {
+  padding-top: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #172b4d;
+  padding: 5%;
+}
+
+.hero-paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hero-lets-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-left: 5%;
+}
+
+ul.network-icons {
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+}
+
+li.network-icons-list {
+  padding: 0;
+  padding-left: 9px;
+  display: flex;
+  align-items: center;
+}
+
+li.network-icons-list:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+li.network-icons-list + li.network-icons-list {
+  margin-left: 1%;
+}
+
+.about-section {
+  padding-top: 10%;
+}
+
+.about-me {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-paragraph {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 8%;
+}
+
+.about-connect {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+ul.about-network-icons {
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.about-language-title {
+  display: inline-flex;
+  width: 100%;
+  gap: 50%;
+  margin-bottom: 3%;
+}
+
+.about-technologies {
+  display: inline;
+}
+
+.about-technologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li.tech {
+  margin: 0;
+  padding: 0;
+  padding-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-rectangle {
+  width: 152px;
+  height: 120px;
+  background: #f7f7f9;
+  transition: transform 1s;
+}
+
+.mobile-rectangle:hover {
+  transform: scale(110%);
+}
+
+.tech-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 45px;
+  padding: 10px;
+}
+
+.language-names-mobil {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 10px;
+  margin-top: 14px;
+}
+
+li.tech {
+  margin: 0;
+  padding: 0;
+  padding-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.about-technologies li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+li .tech + li .tech {
+  padding-left: 10px;
+}
+
+.bottom {
+  width: 12px;
+  height: 12px;
+  transition: 0.5s;
+  float: right;
+  box-shadow: -2px 2px 0 black;
+  margin-top: 3px;
+  transform: rotate(-45deg);
+}
+
+.right {
+  width: 12px;
+  height: 12px;
+  transition: 0.5s;
+  float: left;
+  box-shadow: -2px 2px 0 black;
+  margin-top: 6px;
+  transform: rotate(-135deg);
+}
+
+ul.tech-titles,
+li.tech-title-size-1,
+li.tech-title-size-2 {
+  margin: 0;
+  padding-left: 12px;
+  list-style-type: none;
+  padding-top: 5%;
+}
+
+.tech-title-size-1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  gap: 50%;
+}
+
+.tech-title-size-2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  gap: 49.3%;
+}
+
+.title h2 {
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.about-language-title {
+  display: inline-flex;
+}
+
+form {
+  width: 500px;
+}
+
+.contact-me-section {
+  background-color: #6070ff;
+  margin-top: 150px;
+
+  min-height: 75vh;
+
+  border-top-left-radius: 90px;
+  padding-bottom: 40px;
+  background-size: 100% 100%;
+  background-image: url("img/background-contact-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 82px 4px;
+}
+
+.contact-me-section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 1%;
+}
+
+.contact-me-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+}
+
+.row {
+  margin: 0;
+}
+
+input {
+  font: 1em sans-serif;
+  min-width: 327px;
+  width: 50%;
+  max-width: 450px;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+textarea {
+  font: 1em sans-serif;
+  min-width: 327px;
+  width: 50%;
+  max-width: 450px;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 140px;
+  padding: 2%;
+}
